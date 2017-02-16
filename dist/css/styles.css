@@ -1,10 +1,41 @@
+* {
+  box-sizing: border-box; }
+
+img {
+  width: 100%;
+  display: block; }
+
 body {
-  background: purple; }
+  font-size: 0;
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #262525; }
 
-h2 {
-  color: red; }
+.navigation {
+  background-color: black;
+  padding-left: 15px;
+  border-bottom: 1px solid #929292;
+  height: 56px; }
 
-h3 {
-  color: green; }
+.navigation > * {
+  color: #929292;
+  font-size: 16px;
+  display: inline-block;
+  width: 10%;
+  vertical-align: top; }
+
+.bbc-logo {
+  width: 110px;
+  padding-top: 15px;
+  padding-bottom: 13px;
+  padding-right: 16px;
+  border-right: thin solid #929292;
+  margin-right: 0; }
+
+.nav-radio {
+  text-align: center;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  border-right: thin solid #929292; }
 
 /*# sourceMappingURL=styles.css.map*/
